@@ -1,0 +1,21 @@
+Batch Size: 100
+Crash Penalty: -200
+Direction Scalar: 1
+Episode Length: 500
+Episodes: 200
+Epsilon Decay: 0.98
+Epsilon Initial: 1
+Epsilon Min: 0.05
+First Activation: <function relu at 0x7f63d8c03410>
+Gamma: 0.99
+Goal Reward: 200
+Hidden Activations: <function relu at 0x7f63d8c03410>
+Last Activation: <function linear at 0x7f63d8c03668>
+Learning Rate: 0.00025
+Loss: <function mean_squared_error at 0x7f63de566a28>
+Memory Length: 1000000
+Optimizer: <class 'tensorflow.python.keras.optimizer_v2.rmsprop.RMSprop'>
+Reset Target: 20
+Reward Direction: True
+Scan Ratio: 15
+State Space: 26

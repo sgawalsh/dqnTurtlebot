@@ -1,0 +1,7 @@
+Action Space: [2.5, 1.25, 0, -1.25, -2.5]
+Final Slice: 50
+Goal Min Distance: 0.35
+Model Speed: 0.22
+Rolling Average Samples: 15
+Scan Min Distance: 0.2
+Turtlebot Name: turtlebot3_waffle
