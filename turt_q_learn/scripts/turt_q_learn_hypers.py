@@ -325,6 +325,13 @@ def movingAverage(a) :
     ret[ROLLING_AVERAGE_SAMPLES:] = ret[ROLLING_AVERAGE_SAMPLES:] - ret[:-ROLLING_AVERAGE_SAMPLES]
     return ret[ROLLING_AVERAGE_SAMPLES - 1:] / ROLLING_AVERAGE_SAMPLES
 
+def cartProd(paramDict, fn, **kwargs):
+	keys, values = zip(*paramDict.items())
+	for v in product(*values):
+			experiment = dict(zip(keys, v)) # generate hyperparameter combination
+			print("Using hyperparams: " + str(experiment))
+			fn(experiment)
+
 if __name__ == '__main__':
 	rospy.init_node('qLearner')
 	try:
