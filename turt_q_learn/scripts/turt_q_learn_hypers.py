@@ -9,8 +9,9 @@ import rospy, datetime, random, math, os, tensorflow as tf, numpy as np, matplot
 
 crashDistances = { # wall collision distance per model
 	"turtlebot3_burger": .12,
-	"turtlebot3_burger_front": .19,
-	"turtlebot3_waffle": .22
+	"turtlebot3_burger_front": .20,
+	"turtlebot3_waffle": .22,
+	"turtlebot3_waffle_front": .22,
 }
 
 ACTION_SPACE = [2.5,1.25,0,-1.25,-2.5] # angular velocities for bot
@@ -265,7 +266,6 @@ def spawnModel(modelName, x, y): #  use service to spawn model
 	spawn_model_prox = rospy.ServiceProxy('gazebo/spawn_sdf_model', SpawnModel)
 	modelPath = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))) + "/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_"
 	if modelName == TURTLEBOT_NAME:
-		#modelPath += "waffle"
 		modelPath = TURTLEBOT_NAME.split("_")[1]
 	elif modelName == "goal":
 		modelPath += "square/goal_box"

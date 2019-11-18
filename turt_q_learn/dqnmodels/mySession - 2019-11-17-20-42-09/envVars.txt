@@ -1,0 +1,7 @@
+Action Space: [2.5, 1.25, 0, -1.25, -2.5]
+Final Slice: 50
+Goal Min Distance: 0.35
+Model Speed: 0.12
+Rolling Average Samples: 25
+Scan Min Distance: 0.12
+Turtlebot Name: turtlebot3_burger
