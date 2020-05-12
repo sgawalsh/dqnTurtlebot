@@ -1,0 +1,35 @@
+name: dqnTurtEnv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - ca-certificates=2020.4.5.1=hecc5488_0
+  - catkin_pkg=0.4.19=pyh9f0ad1d_0
+  - certifi=2016.9.26=py27_0
+  - defusedxml=0.6.0=py_0
+  - distro=1.4.0=py_0
+  - docutils=0.16=py27_0
+  - libedit=3.1.20181209=hc058e9b_0
+  - libffi=3.3=he6710b0_1
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - ncurses=6.2=he6710b0_1
+  - netifaces=0.10.9=py27hdf8410d_1002
+  - pip=19.3.1=py27_0
+  - pyparsing=2.4.7=pyh9f0ad1d_0
+  - python=2.7.18=h15b4118_1
+  - python-dateutil=2.8.1=py_0
+  - python_abi=2.7=1_cp27mu
+  - pyyaml=5.1.2=py27h516909a_1
+  - readline=8.0=h7b6447c_0
+  - rospkg=1.2.6=pyh9f0ad1d_0
+  - setuptools=44.0.0=py27_0
+  - six=1.14.0=py_1
+  - sqlite=3.31.1=h62c20be_1
+  - tk=8.6.8=hbc83047_0
+  - wheel=0.33.6=py27_0
+  - yaml=0.2.4=h516909a_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /home/stephen/miniconda3/envs/dqnTurtEnv
+
