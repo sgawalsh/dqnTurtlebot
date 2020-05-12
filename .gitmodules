@@ -1,0 +1,6 @@
+[submodule "turtlebot3_simulations_sub"]
+	path = turtlebot3_simulations_sub
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+[submodule "gazebo_ros_pkgs_sub"]
+	path = gazebo_ros_pkgs_sub
+	url = https://github.com/ros-simulation/gazebo_ros_pkgs.git
