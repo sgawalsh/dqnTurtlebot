@@ -8,7 +8,7 @@ base-local-planner==1.16.2
 camera-calibration-parsers==1.11.13
 catkin==0.7.17
 catkin-pkg==0.4.19
-certifi==2016.9.26
+certifi==2019.11.28
 controller-manager==0.15.1
 controller-manager-msgs==0.15.1
 cv-bridge==1.13.0
@@ -20,6 +20,7 @@ docutils==0.16
 dynamic-reconfigure==1.6.0
 enum34==1.1.6
 funcsigs==1.0.2
+future==0.18.2
 futures==3.3.0
 gast==0.2.2
 gencpp==0.6.2
@@ -38,12 +39,15 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
 laser-geometry==1.6.4
+linecache2==1.0.0
 Markdown==3.1.1
 matplotlib==2.2.4
 message-filters==1.14.3
 mock==3.0.5
 netifaces==0.10.9
 numpy==1.16.5
+opt-einsum==0+untagged.32.g31919b8
+pbr==5.4.2
 protobuf==3.9.1
 py-trees==0.6.8
 pyparsing==2.4.2
@@ -122,7 +126,7 @@ six==1.12.0
 smclib==1.8.3
 subprocess32==3.5.4
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.0
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 tf==1.12.0
@@ -131,9 +135,11 @@ tf2-kdl==0.6.5
 tf2-py==0.6.5
 tf2-ros==0.6.5
 topic-tools==1.14.3
+traceback2==1.4.0
 turtlebot3-example==1.2.2
 turtlebot3-teleop==1.2.2
 unique-id==1.0.6
+unittest2==1.1.0
 virtualenv==16.7.7
 Werkzeug==0.15.5
 wrapt==1.11.2
