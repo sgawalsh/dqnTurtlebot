@@ -346,8 +346,8 @@ if __name__ == '__main__':
 			"Epsilon Decay": [.992],
 			"Epsilon Min": [.05],
 			"Reset Target": [2000], #  memories examined count to sync target net to model net
-			"Gamma": [.99],
-			"Scan Ratio": [12], # how wany of the 360 scans are read, larger number = less scan count
+			"Gamma": [.99], # Q-learning gamma variable, rate or reward depreciation between states
+			"Scan Ratio": [12], # how wany of the 360 scans are read, larger number -> less scan count
 			"Max Scan Range": [1], # how far each scan ray sees, max 3.5
 			"Scan Reward Scaler": [1],
 			"Learning Rate": [0.0002],
@@ -360,7 +360,7 @@ if __name__ == '__main__':
 			"Hidden Activations": [tf.compat.v1.keras.activations.relu],
 			"Last Activation": [tf.compat.v1.keras.activations.linear],
 			"Initializer": [tf.variance_scaling_initializer(scale=2)],
-			"Load Model" : [False]
+			"Load Model" : [False] # load model contained in turt_q_learn/load_model/model
 		}
 		
 		FINAL_SLICE = (hyperParameterList["Episodes"] // 2 if FINAL_SLICE >= hyperParameterList["Episodes"] else FINAL_SLICE) # set and save session vars
