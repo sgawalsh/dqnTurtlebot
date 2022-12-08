@@ -8,7 +8,7 @@ base-local-planner==1.16.2
 camera-calibration-parsers==1.11.13
 catkin==0.7.17
 catkin-pkg==0.4.19
-certifi==2019.11.28
+certifi==2022.12.7
 controller-manager==0.15.1
 controller-manager-msgs==0.15.1
 cv-bridge==1.13.0
